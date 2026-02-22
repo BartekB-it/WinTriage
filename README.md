@@ -2,6 +2,8 @@
 
 **WinTriage** is a lightweight PowerShell forensic triage script designed for rapid data collection from Windows systems during initial incident response. It automates the gathering of critical artifacts, helping SOC analysts and IR responders identify signs of compromise quickly.
 
+![WinTriage in action](WinTriage.gif)
+
 ## Key Features
 - **Process Analysis:** Identifies PowerShell instances and processes running from suspicious locations (Temp, AppData, Downloads, etc.).
 - **Persistence Detection:** Scans Autorun registry keys and Scheduled Tasks (with automatic filtering of legitimate Microsoft tasks to reduce noise).
@@ -27,4 +29,5 @@
 This tool is intended for educational purposes and security analysis only. Always test scripts in a lab environment before deploying them on production systems.
 
 ---
+
 Author: Bartłomiej Biskupiak
